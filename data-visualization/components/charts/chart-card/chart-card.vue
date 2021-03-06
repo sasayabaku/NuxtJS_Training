@@ -4,7 +4,7 @@
             Simple Chart
         </v-card-title>
         <v-card-text class="chart-container"> 
-            <Chart v-if="loaded" :chartData="chartData" :options="options"/>
+            <Chart :chartData="chartData" :options="options"/>
         </v-card-text>
     </v-card>
 </template>
@@ -17,8 +17,6 @@ export default {
     },
     data() {
         return {
-            loaded: true,
-
             chartData: {
                 labels: ['A', 'B', 'C'],
                 datasets: [{
