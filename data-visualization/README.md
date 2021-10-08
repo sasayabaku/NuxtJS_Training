@@ -2,6 +2,16 @@
 
 ## Build Setup
 
+### Create .env filea
+
+`.env` ファイルを作成し。下記を記載
+
+[QuandlのAPIトークン取得](https://qiita.com/dark_thiele/items/072008b9bdf1145237fc)
+
+```env
+QUANDL_KEY=<QUANDLのトークン>
+```
+
 ```bash
 # install dependencies
 $ yarn install
